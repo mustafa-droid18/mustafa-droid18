@@ -12,7 +12,7 @@ Machine learning for **credit risk**, **reinforcement learning**, and **LLM syst
 [![Email](https://img.shields.io/badge/Email-msp9471%40nyu.edu-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:msp9471@nyu.edu)
 ![Location](https://img.shields.io/badge/New%20York,%20NY-2ea44f?style=for-the-badge)
 
-*I build ML systems with measurable results — calibrated probabilities, backtested pipelines, benchmarked agents.*
+*I build ML systems with measurable results, calibrated probabilities, backtested pipelines, benchmarked agents.*
 
 </div>
 
