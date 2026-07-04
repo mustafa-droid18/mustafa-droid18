@@ -1,38 +1,51 @@
-# Hi, I'm Mustafa Poonawala 👋
+<div align="center">
 
-MS student at **NYU**, working on machine learning across credit risk, reinforcement learning, and LLM applications. I like projects with measurable results — calibrated probabilities, backtested pipelines, benchmarked agents.
+# Mustafa Poonawala
 
-📍 New York, NY · [LinkedIn](https://www.linkedin.com/in/mustafa1808) · 📧 msp9471@nyu.edu
+**MS Data Science @ NYU** — machine learning for credit risk, reinforcement learning, and LLM applications
 
----
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-mustafa1808-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mustafa1808)
+[![Email](https://img.shields.io/badge/msp9471%40nyu.edu-D14836?logo=gmail&logoColor=white)](mailto:msp9471@nyu.edu)
+![Location](https://img.shields.io/badge/New%20York,%20NY-2ea44f)
 
-## 🔍 Featured Work
+I build ML systems with measurable results — calibrated probabilities, backtested pipelines, benchmarked agents.
 
-### 🏦 [Credit Risk — Corporate PD](https://github.com/mustafa-droid18/Credit-Risk-Corporate-PD)
-Two-stage XGBoost + isotonic calibration pipeline predicting 12-month corporate defaults on ~1M firm-year observations of Italian company data.
-**Walk-forward AUC 0.837** (95% CI 0.832–0.840) · **−91% Brier score** after calibration · beats logistic baseline by +3.9 AUC points. Built for IFRS 9-style provisioning with proper temporal validation.
+</div>
 
-### 🎮 [LLM Reward Shaping](https://github.com/mustafa-droid18/LLM-Reward-Shaping)
-Can an LLM design reward functions better than a human? Automated loop where Claude writes reward functions for a PPO agent on Super Mario Bros, gets evaluation feedback, and revises over 5 rounds.
-**+101% mean progress vs. unshaped baseline at 1M steps** — with zero manual reward engineering.
+## Featured Projects
 
-### 📊 [RateMyProfessor Bias Analysis](https://github.com/mustafa-droid18/RateMyProfessor-Bias-Analysis)
-Statistical + ML analysis of gender and perception bias in professor reviews.
+### [Credit-Risk-Corporate-PD](https://github.com/mustafa-droid18/Credit-Risk-Corporate-PD) 🏦
 
-### ♿ [Scribee](https://github.com/mustafa-droid18/Scribee)
-Accessibility app converting speech/text to Braille and recognizing sign language — MediaPipe, TensorFlow, OpenCV, Streamlit.
+> Two-stage XGBoost + isotonic calibration pipeline predicting 12-month corporate defaults on ~1M firm-year observations of Italian company data.
 
-### 🧮 [0/1 Knapsack via LAB Algorithm](https://github.com/mustafa-droid18/Solving-the-0-1-Knapsack-Problem-Using-the-LAB-Algorithm)
-Metaheuristic optimization using the Leader-Advocate-Believer algorithm.
+- **0.837 walk-forward AUC** (95% CI 0.832–0.840) across 4 temporal folds
+- **−91% Brier score** after calibration · **+3.9 AUC points** over logistic baseline
+- Designed for IFRS 9-style provisioning with proper temporal validation
 
----
+### [LLM-Reward-Shaping](https://github.com/mustafa-droid18/LLM-Reward-Shaping) 🎮
 
-## 🛠️ Toolbox
+> Can an LLM design reward functions better than a human? An automated loop where Claude writes reward functions for a PPO agent on Super Mario Bros, receives evaluation feedback, and revises over 5 rounds.
 
-**Languages:** Python · SQL · MATLAB
-**ML/DS:** XGBoost · scikit-learn · TensorFlow/Keras · Stable-Baselines3 · SHAP · pandas
-**Domains:** Credit risk & calibration · Reinforcement learning · LLM integration · Fairness/bias analysis · Computer vision
+- **+101% mean progress** vs. unshaped baseline at 1M steps
+- Zero manual reward engineering — full generate → train → evaluate → revise loop
+- PPO + CNN policy (Stable-Baselines3), reproducible experiment configs
 
-## 📈 Stats
+### [RateMyProfessor-Bias-Analysis](https://github.com/mustafa-droid18/RateMyProfessor-Bias-Analysis) 📊
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mustafa-droid18&show_icons=true&theme=default&hide_rank=true)
+> Statistical and ML analysis of gender and perception bias in professor reviews.
+
+### [Scribee](https://github.com/mustafa-droid18/Scribee) ♿
+
+> Accessibility app converting speech and text to Braille, with sign-language recognition — MediaPipe, TensorFlow, OpenCV, Streamlit.
+
+### [Solving-the-0-1-Knapsack-Problem-Using-the-LAB-Algorithm](https://github.com/mustafa-droid18/Solving-the-0-1-Knapsack-Problem-Using-the-LAB-Algorithm) 🧮
+
+> Metaheuristic optimization with the Leader–Advocate–Believer algorithm.
+
+## Toolbox
+
+|            |                                                                              |
+| ---------- | ---------------------------------------------------------------------------- |
+| **Languages** | Python · SQL · MATLAB                                                      |
+| **ML / DS**   | XGBoost · scikit-learn · TensorFlow/Keras · Stable-Baselines3 · SHAP · pandas |
+| **Domains**   | Credit risk & calibration · Reinforcement learning · LLM integration · Fairness & bias · Computer vision |
