@@ -33,7 +33,7 @@ Machine learning for **credit risk**, **reinforcement learning**, and **LLM syst
 - Revises rewards using training diagnostics (entropy, episode length, explained variance) as feedback
 - Caught reward-hacking exploits and two evaluation bugs via methodology audits; rebuilt the comparison on a leak-free criterion
 
-### [moco-visual-features](https://github.com/mustafa-droid18/moco-visual-features) 🔍 — 🎓 *NYU Deep Learning, 2025*
+### [Moco-Visual-Features](https://github.com/mustafa-droid18/moco-visual-features) 🔍 — 🎓 *NYU Deep Learning, 2025*
 
 > Self-supervised MoCo v2 pretraining of a ResNet-50 on unlabeled images, evaluated by frozen-encoder linear probing — NYU Deep Learning final project.
 
