@@ -33,6 +33,14 @@ Machine learning for **credit risk**, **reinforcement learning**, and **LLM syst
 - Revises rewards using training diagnostics (entropy, episode length, explained variance) as feedback
 - Caught reward-hacking exploits and two evaluation bugs via methodology audits; rebuilt the comparison on a leak-free criterion
 
+### [moco-visual-features](https://github.com/mustafa-droid18/moco-visual-features) 🔍 — 🎓 *NYU Deep Learning, 2025*
+
+> Self-supervised MoCo v2 pretraining of a ResNet-50 on unlabeled images, evaluated by frozen-encoder linear probing — NYU Deep Learning final project.
+
+- Pretrained for **200 epochs** with a 65,536-key momentum queue, learning representations with no labels
+- Linear probe with multi-view feature extraction reached **69.7% test accuracy on MiniImageNet**, plus CUB-200 (29.1%) and SUN397 (42.1%)
+- Showed that evaluating at 128 px, above the 96 px pretraining size, improved validation accuracy on all three datasets
+
 ### [RateMyProfessor-Bias-Analysis](https://github.com/mustafa-droid18/RateMyProfessor-Bias-Analysis) 📊
 
 > Gender bias analysis across 90k+ instructor reviews with rigorous statistics.
